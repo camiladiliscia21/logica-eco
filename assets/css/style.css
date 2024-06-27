@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #444444;
+  color: #000000;
 }
 
 a {
@@ -20,11 +20,12 @@ a:hover {
   text-decoration: none;
 }
 
+
 h1,
 h3,
-h4,
 h5,
 h6,
+
 .font-alfa {
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
@@ -46,6 +47,13 @@ h6,
   font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
+
+h4 {
+  font-size:24;
+  font-family: "Alfa Slab One", serif;
+  color: #E90504;
+}
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -64,7 +72,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #0245BC;
   text-transform: uppercase;
 }
 
@@ -73,9 +81,10 @@ section {
   padding: 0;
   font-size: 38px;
   line-height: 42px;
-  font-weight: 700;
-  color: #012970;
+  font-weight: 400;
+  color: #E90504;
 }
+
 
 @media (max-width: 768px) {
   .section-header p {
@@ -145,7 +154,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #FFF9EF;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -154,13 +163,13 @@ section {
 
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: #E90504;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #6776f4;
-  color: #fff;
+  background: #E90504;
+  color: #FFF9EF;
 }
 
 .back-to-top.active {
@@ -187,7 +196,7 @@ section {
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: #E90504;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -197,18 +206,18 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 6px;
 }
 
-.header .logo span {
+/*.header .logo span {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
   font-family: "Nunito", sans-serif;
-  margin-top: 3px;
-}
+  margin-top: 3px; */
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -238,10 +247,10 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 700;
-  color: #013289;
+  font-weight: 500;
+  color: #FFF9EF;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -257,22 +266,22 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #000000;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #FFF9EF;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #E90504;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #5969f3;
+  color: #FFF9EF;
+  background: #E90504;
 }
 
 .navbar .dropdown ul {
@@ -285,7 +294,7 @@ section {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #E90504;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -341,7 +350,7 @@ section {
 .navbar .megamenu ul li a:hover,
 .navbar .megamenu ul li .active,
 .navbar .megamenu ul li .active:hover {
-  color: #4154f1;
+  color: #FFF9EF;
 }
 
 .navbar .dropdown .dropdown ul {
@@ -371,7 +380,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #FFF9EF;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -380,7 +389,7 @@ section {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #FFF9EF;
 }
 
 @media (max-width: 1200px) {
@@ -419,7 +428,7 @@ section {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #E90504;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -428,13 +437,13 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #FFF9EF;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #000000;
 }
 
 .navbar-mobile .getstarted,
@@ -505,12 +514,12 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #0245BC;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto";
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -574,24 +583,68 @@ section {
 # Index Page
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+
+.values .box {
+  padding: 30px;
+ /* box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08); */
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;  
+}
+
+.values .box img {
+  padding: 10px 30px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.values .box h3 {
+  font-size: 24px;
+  color: #E90504;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.values .box:hover img {
+  transform: scale(1);
+}
+
+.values {
+  background-color: #F0E9DE;
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
 .about .content {
-  background-color: #f6f9ff;
   padding: 40px;
 }
 
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #0245BC;
   text-transform: uppercase;
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 13px;
   font-weight: 700;
-  color: #012970;
+  color: #0245BC;
+}
+
+.Cami {
+  font-weight: 700;
+  color: #E90504;
+  font-style: italic;
 }
 
 .about p {
@@ -604,8 +657,8 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: #4154f1;
+  color: #FFF9EF;
+  background: #0245BC;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
@@ -626,36 +679,8 @@ section {
   transform: translateX(5px);
 }
 
-/*--------------------------------------------------------------
-# Values
---------------------------------------------------------------*/
-.values .box {
-  padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
-  text-align: center;
-  transition: 0.3s;
-  height: 100%;
-}
-
-.values .box img {
-  padding: 30px 50px;
-  transition: 0.5s;
-  transform: scale(1.1);
-}
-
-.values .box h3 {
-  font-size: 24px;
-  color: #012970;
-  font-weight: 700;
-  margin-bottom: 18px;
-}
-
-.values .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
-
-.values .box:hover img {
-  transform: scale(1);
+.about {
+  background-color: #FFF9EF;
 }
 
 /*--------------------------------------------------------------
@@ -666,33 +691,47 @@ section {
 }
 
 .counts .count-box {
+  background-image: url(../img/count-box.png);
   display: flex;
   align-items: center;
   padding: 30px;
   width: 100%;
-  background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .counts .count-box i {
   font-size: 42px;
+  background-image: url(../img/icono-2.png);
   line-height: 0;
   margin-right: 20px;
-  color: #4154f1;
 }
 
 .counts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #0b198f;
+  color: #FFF9EF;
 }
 
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
-  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #FFF9EF;
+  font-weight: 500;
+}
+
+.counts {
+  background-color: #FFF9EF;
+}
+
+.contador {
+  color: #FFF9EF;
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
@@ -1112,8 +1151,7 @@ section {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
-  text-align: center;
-  background: white;
+  text-align: center center;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -1125,17 +1163,17 @@ section {
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
+  color: #000000;
   margin: 0 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff00;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #0245BC;
+  border-color: #0245BC;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1147,7 +1185,8 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.75);
+ 
+
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1180,8 +1219,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; 
+} 
 
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
@@ -1197,6 +1236,10 @@ section {
   z-index: 9994;
 }
 
+.portfolio {
+  background-color: #F0E9DE;
+}
+/*
 .portfolio .portfolio-wrap .portfolio-info::after {
   display: block;
   content: "";
@@ -1278,7 +1321,7 @@ section {
   bottom: 15px;
   right: 15px;
 }
-
+*/
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
