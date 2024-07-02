@@ -748,6 +748,22 @@ section {
   color: #FFF9EF;
   font-weight: 500;
 }
+.counter-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.percent-symbol {
+  font-size: 36px; 
+  margin-left: 5px;
+}
+
+.count-icon {
+  width: 50px;  /* Ajusta el tamaño según lo necesario */
+  height: 50px; /* Ajusta el tamaño según lo necesario */
+  margin-right: 20px;
+}
+
 
 /*--------------------------------------------------------------
 # Features
