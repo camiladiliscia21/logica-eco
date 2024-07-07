@@ -469,8 +469,86 @@
       </div>
     </section>
 
-  
-    
-    
-    
     <!-- End Features Section -->
+
+
+
+
+
+LO QUE USE ANTES EN MODULOS 
+
+
+
+  <!-- ======= Features Section ======= -->
+<!-- ======= Features Section ======= -->
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header">
+      <h2>Módulos</h2>
+      <p class="font-alfa">Cambiá el planeta en solo 10 módulos</p>
+    </header>
+
+    <div class="row">
+      <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+        <div class="row align-self-center gy-4">
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+            <div class="feature-box d-flex align-items-center">
+              <img src="assets/img/check.png" alt="Icono 1" class="icon-image" width="32" height="32">
+              <p style="color:#E90504;">Introducción a la moda sostenible</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+            <div class="feature-box d-flex align-items-center">
+              <img src="assets/img/check.png" alt="Icono 2" class="icon-image" width="32" height="32">
+              <p style="color:#E90504;">Técnicas de fabricación ética</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+            <div class="feature-box d-flex align-items-center">
+              <img src="assets/img/check.png" alt="Icono 3" class="icon-image" width="32" height="32">
+              <p style="color:#E90504;">Materiales ecológicos</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+            <div class="feature-box d-flex align-items-center">
+              <img src="assets/img/check.png" alt="Icono 4" class="icon-image" width="32" height="32">
+              <p style="color:#E90504;">Economía circular en la moda</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+            <div class="feature-box d-flex align-items-center">
+              <img src="assets/img/check.png" alt="Icono 5" class="icon-image" width="32" height="32">
+              <p style="color:#E90504;">Diseño de moda verde</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+            <div class="feature-box d-flex align-items-center">
+              <img src="assets/img/check.png" alt="Icono 6" class="icon-image" width="32" height="32">
+              <p style="color:#E90504;">Colorantes y acabados sostenibles</p>
+            </div>
+          </div>
+
+          <!-- Button in the middle -->
+          <div class="col-12 d-flex justify-content-center mt-4">
+            <a href="#more-info" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <span>Quiero ser parte</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <img src="assets/img/valores.png" class="img-fluid final-image" alt="">
+      </div>
+    </div> <!-- / row -->
+  </div>
+</section>
+<!-- End Features Section -->
+
