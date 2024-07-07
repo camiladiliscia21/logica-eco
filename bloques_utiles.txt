@@ -239,6 +239,7 @@
     </section><!-- End Recent Blog Posts Section -->
 
    <!-- ======= Features Section ======= -->
+
    <section id="features" class="features">
 
     <div class="container" data-aos="fade-up">
@@ -394,3 +395,82 @@
     </div>
 
   </section><!-- End Features Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h2>Valores</h2>
+          <p class="font-alfa">¿Por qué deberías elegirnos?</p>
+        </header>
+    
+        <div class="row">
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <img src="assets/img/check.png" alt="Icono 1" class="icon-image" width="32" height="32">
+                  <p style="color:#E90504;">Curanderos profesionales</p>
+                </div>
+              </div>
+    
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <img src="assets/img/check.png" alt="Icono 2" class="icon-image" width="32" height="32">
+                  <p style="color:#E90504;">Calidad premium</p>
+                </div>
+              </div>
+    
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <img src="assets/img/check.png" alt="Icono 3" class="icon-image" width="32" height="32">
+                  <p style="color:#E90504;">Servicio personalizado</p>
+                </div>
+              </div>
+    
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <img src="assets/img/check.png" alt="Icono 4" class="icon-image" width="32" height="32">
+                  <p style="color:#E90504;">100% sustentable</p>
+                </div>
+              </div>
+    
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <img src="assets/img/check.png" alt="Icono 5" class="icon-image" width="32" height="32">
+                  <p style="color:#E90504;">Higienización extrema</p>
+                </div>
+              </div>
+    
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <img src="assets/img/check.png" alt="Icono 6" class="icon-image" width="32" height="32">
+                  <p style="color:#E90504;">Prendas únicas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6">
+            <img src="assets/img/valores.png" class="img-fluid final-image" alt="">
+          </div>
+        </div> <!-- / row -->
+      </div>
+    </section>
+
+  
+    
+    
+    
+    <!-- End Features Section -->

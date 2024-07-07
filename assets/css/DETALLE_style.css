@@ -22,8 +22,6 @@ a:hover {
 
 
 h1,
-h3,
-h6,
 
 .font-alfa {
   font-family: "Alfa Slab One", serif;
@@ -61,8 +59,12 @@ h4 {
 h5 {
   font-family: "Roboto";
   color: #E90504;
-  font: size 50px;
-  font-weight: 600;
+  font: size 18px;
+}
+
+h3 {
+  font-family: "Alfa Slab One";
+  color: #E90504;
 }
 
 h6 {
@@ -72,8 +74,6 @@ h6 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
-
 
 /*--------------------------------------------------------------
 # Sections
@@ -518,20 +518,21 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center no-repeat;
+  background-color: #F0E9DE ;
   background-size: cover;
 }
 
 .hero h1 {
   margin: 0;
   font-size: 48px;
-  color: #FFF9EF;
+  color: #E90504;
 }
 
-.hero h2 {
-  color: #FFF9EF;
+.hero p {
+  color: #040302;
+  font-weight: 400;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .hero .btn-get-started {
@@ -546,7 +547,7 @@ section {
 
 .hero .btn-get-started:hover {
   background-color: #00000000;
-  border: #FFF9EF 2px solid;  
+  border: #0245BC 2px solid;  
 
 }
 
@@ -559,6 +560,9 @@ section {
   color: #FFF9EF;
 }
 
+.hero .btn-get-started:hover span {
+color: #0245BC;
+}
 
 .hero .btn-get-started i {
   margin-left: 5px;
@@ -568,13 +572,13 @@ section {
 
 .hero .btn-get-started:hover i {
   transform: translateX(5px);
-
+  color: #0245BC;
 }
 
 
 .hero .hero-img {
   text-align: right;
-  scale: 1.2;
+  scale: 1;
 }
 
 @media (min-width: 1024px) {
@@ -606,6 +610,8 @@ section {
 
   .hero h1 {
     font-size: 32px;
+    margin-top: 20px;
+
   }
 
   .hero h2 {
@@ -679,6 +685,11 @@ section {
   color: #0245BC;
 }
 
+.cami2 {
+
+  font-weight: 600;
+}
+
 .Cami {
   font-weight: 700;
   color: #E90504;
@@ -689,6 +700,7 @@ section {
   margin: 15px 0 30px 0;
   line-height: 24px;
 }
+
 .about .btn-read-more  {
   margin-top: 30px;
   line-height: 0;
@@ -728,7 +740,6 @@ color: #0245BC;
   transform: translateX(5px);
   color: #0245BC;
 }
-
 
 .about {
   background-color: #FFF9EF;
@@ -943,23 +954,64 @@ color: #0245BC;
 
 .features .final-image {
   margin: 30px auto; 
-  display: block;  
+  display: block; 
+  
 }
 
 .features {
   background-color: #FFF9EF;
 }
 
+.features .btn-get-started {
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #0245BC;
+}
+
+.features .btn-get-started:hover {
+  background-color: #00000000;
+  border: #0245BC 2px solid;  
+
+}
+
+
+.features .btn-get-started span {
+  font-family: "Roboto";
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFF9EF;
+}
+
+.features .btn-get-started:hover span {
+color: #0245BC;
+}
+
+.features .btn-get-started i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.features .btn-get-started:hover i {
+  transform: translateX(5px);
+  color: #0245BC;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .service-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+ /* background-image: url(../img/modulos.png); */
+  background-size: cover;
   height: 100%;
-  padding: 60px 30px;
+  padding: 22px 0px;
   text-align: center;
   transition: 0.3s;
-  border-radius: 5px;
 }
 
 .services .service-box .icon {
@@ -973,11 +1025,93 @@ color: #0245BC;
   transition: 0.3s;
 }
 
-.services .service-box h3 {
-  color: #444444;
-  font-weight: 700;
+.services h3 {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
+.services p {
+  font-weight: 500;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.service-box .service-icon {
+  width: 120px; 
+  height: 120px; 
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.services {
+  background-color: #F0E9DE;
+}
+/*
+@media screen and (max-width: 1399px) { 
+  .services .service-box {
+    background-image: url(../img/modulos.media.png);
+  }
+}
+
+@media screen and (max-width: 1299px) { 
+  
+  .services .service-box {
+    background-image: url(../img/modulos.media2.png);
+  }
+
+  .services h3 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .services p {
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) { 
+  
+  .services .service-box {
+    background-image: url(../img/modulos.media3.png);
+  }
+
+  .services h3 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .services p {
+    font-weight: 500;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) { 
+  .services .service-box {
+    background-image: url(../img/modulos.media4.png);
+  }
+  .services h3 {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .services p {
+    font-weight: 500;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+*/
+
+/*
 .services .service-box .read-more {
   display: inline-flex;
   align-items: center;
@@ -993,9 +1127,6 @@ color: #0245BC;
   font-size: 18px;
 }
 
-.services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
-}
 
 .services .service-box.blue .icon {
   color: #2db6fa;
@@ -1095,6 +1226,7 @@ color: #0245BC;
   background: #f51f9c;
 }
 
+
 .services .service-box:hover h3,
 .services .service-box:hover p,
 .services .service-box:hover .read-more {
@@ -1103,6 +1235,50 @@ color: #0245BC;
 
 .services .service-box:hover .icon {
   background: #fff;
+}
+*/
+.services .btn-read-more  {
+  margin-top: 30px;
+  line-height: 1;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s;
+  color: #fff;
+  background: #0245BC;
+}
+
+.services .btn-read-more:hover {
+  background-color: #00000000;
+  border: #0245BC 2px solid;  
+}
+
+.services .btn-read-more span {
+  font-family: "Roboto";
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFF9EF;
+}
+
+.services .btn-read-more:hover span {
+  color: #0245BC;
+}
+
+.services .btn-read-more i {
+  margin-left: 10px; /* Incrementado el margen para más espacio */
+  font-size: 18px;
+  transition: transform 0.3s, color 0.3s; /* Especificar las transiciones */
+}
+
+.services .btn-read-more:hover i {
+  transform: translateX(5px);
+  color: #0245BC;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -1774,20 +1950,23 @@ color: #0245BC;
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #F0E9DE;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #0245BC;
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #0245BC;
+}
+
+.clients {
+  background-color: #F0E9DE;
 }
 
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
 .recent-blog-posts .post-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   height: 100%;
   overflow: hidden;
@@ -1810,15 +1989,16 @@ color: #0245BC;
 
 .recent-blog-posts .post-box .post-date {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgba(1, 41, 112, 0.6);
   display: block;
   margin-bottom: 10px;
 }
 
 .recent-blog-posts .post-box .post-title {
+  font-family: "Roboto";
   font-size: 24px;
-  color: #012970;
+  color: #000000;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
@@ -1831,20 +2011,35 @@ color: #0245BC;
   font-weight: 600;
   line-height: 1;
   transition: 0.3s;
+  color: #0245BC;
+}
+
+.recent-blog-posts .post-box .readmore:hover {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+  color: #F0E9DE;
 }
 
 .recent-blog-posts .post-box .readmore i {
   line-height: 0;
   margin-left: 4px;
   font-size: 18px;
+  color: #0245BC;
 }
 
-.recent-blog-posts .post-box:hover .post-title {
-  color: #4154f1;
+.recent-blog-posts .post-box .readmore:hover i {
+  line-height: 0;
+  margin-left: 4px;
+  font-size: 18px;
+  transition: 0.3s;
+  color: #F0E9DE;
 }
 
-.recent-blog-posts .post-box:hover .post-img img {
-  transform: rotate(6deg) scale(1.2);
+.recent-blog-posts {
+  background-color: #FFF9EF;
 }
 
 /*--------------------------------------------------------------
@@ -1948,18 +2143,20 @@ color: #0245BC;
 
 .contact .php-email-form button[type=submit] {
   background: #0245BC;
-  border: 0;
+  border: 1px solid #0245BC;
   padding: 10px 30px;
+  font-weight: 500;
   color: #FFF9EF;
   transition: 0.4s;
   border-radius: 4px;
-  font-weight: 500;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  border: #0245BC solid 1px;
-  background: #ffffff00;
+  background: #00000000;
+  border: 1px solid #0245BC;
   color: #0245BC;
+  font-weight: 500;
+
 }
 
 .contact .info-box .icon-image {
