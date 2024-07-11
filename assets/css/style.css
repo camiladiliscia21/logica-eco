@@ -188,6 +188,11 @@ section {
   line-height: 0;
 }
 
+.back-to-top:hover i {
+  color: #FFF9EF; 
+}
+
+
 .back-to-top:hover {
   background: #E90504;
   color: #FFF9EF;
@@ -647,13 +652,14 @@ section {
   margin-bottom: 18px;
 }
 
-.values .box:hover {
+/*.values .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
+} 
 
 .values .box:hover img {
   transform: scale(1);
 }
+*/
 
 .values {
   background-color: #F0E9DE;
@@ -765,7 +771,7 @@ color: #0245BC;
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #FFF9EF;
+  color: #E90504;
 }
 
 .counts .count-box p {
@@ -773,7 +779,7 @@ color: #0245BC;
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #FFF9EF;
+  color: #E90504;
   font-weight: 500;
 }
 
@@ -1415,13 +1421,13 @@ color: #0245BC;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
-
+*/
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: 30px;
   color: #012970;
   font-weight: 700;
 }
-
+/*
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #012970;
   font-weight: 600;
@@ -1461,13 +1467,14 @@ color: #0245BC;
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
 }
-
+*/
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 2;
+  size: 40px 40px;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
@@ -1483,7 +1490,7 @@ color: #0245BC;
   bottom: 15px;
   right: 15px;
 }
-*/
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
