@@ -604,7 +604,8 @@ color: #0245BC;
 
   .hero .hero-img {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 
   .hero .hero-img img {
