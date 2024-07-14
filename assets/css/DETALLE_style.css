@@ -296,7 +296,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #0245BC;
+  color: #000000;
 }
 
 .navbar .getstarted,
@@ -312,9 +312,9 @@ section {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #0245BC;
-  border: #0245BC solid 2px;
-  background-color: #0245BC;
+  color: #000000;
+  border: #000000 solid 2px;
+  background-color: #00000000;
 
 }
 
@@ -518,6 +518,7 @@ section {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1437,6 +1438,12 @@ color: #0245BC;
   }
 }
 
+@media screen and (max-width: 991px) { 
+  .pricing .box:hover {
+    transform: scale(1.04); 
+  }
+
+}
 
 /*--------------------------------------------------------------
 # F.A.Q
