@@ -478,7 +478,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0245BC;
+  color: #000000;
 }
 
 .navbar-mobile .getstarted,
